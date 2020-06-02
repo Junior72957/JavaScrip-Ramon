@@ -1,9 +1,9 @@
 function pegarDados() {
-    let usuario = document.getElementById("usuario");
+    let usuario = document.getElementById("usuarios");
     let foto = document.getElementById("foto");
     
     
-    fetch('https://api.thecatapi.com/v1/images/search')
+    fetch('https://dog.ceo/api/breeds/image/random')
     .then(
         response => response.json()
     )

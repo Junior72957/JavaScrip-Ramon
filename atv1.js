@@ -15,30 +15,39 @@ let livros = new Array [
     id: 1, 
         titulo: "Harry Potter e a camara secreta",
         autor: "J. K. Rowling",
-        livrolido: "False",
+        livrolido: False,
     },
     {
     id: 2,
         titulo: "As vantagens de ser insivisel",
         autor: "Stephen Chbosky",
-        livrolido: "true",
+        livrolido: true,
     },
     {
     id : 3, 
         titulo: "Pequeno principe",
         autor:  "Antoine de Saint-Exupéry",
-        livrolido: "false",
+        livrolido: false,
     },
     {
     id : 4, 
         titulo: "A cabana",
         autor: "William P. Young",
-        livrolido: "false",
+        livrolido: false,
     },
     {
     id : 5, 
         titulo: "Turma da monica",
         autor: "Mauricio de Sousa",
-        livrolido: "false",
+        livrolido: false,
     }
 ]
+for(1=0; 1<livros.lenght; i++){
+    console.log(livros.titulo[i]);
+    console.log(livros.autor[i]);
+    if(livrolido == true)
+    console.log("Esse livro ja foi lido");
+    else
+    console.log("Esse livro nao foi lido");
+    
+}

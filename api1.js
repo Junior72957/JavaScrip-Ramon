@@ -1,5 +1,5 @@
 function pegarDados() {
-    let foto = document.getElementById("foto");
+    let foto = document.getElementById("fotos");
     
     fetch('https://dog.ceo/api/breeds/image/random ')
     .then(

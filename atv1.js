@@ -19,7 +19,7 @@ let livros = new Array [
     },
     {
     id: 2,
-        titulo: "As vantagens de ser insivisel",
+        titulo: "As vantagens de ser invisivel",
         autor: "Stephen Chbosky",
         livrolido: true,
     },
